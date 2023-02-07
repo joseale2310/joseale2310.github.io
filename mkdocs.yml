@@ -1,8 +1,32 @@
-site_name: My Docs
-nav:
-  - index.md
+# Project information
+site_name: My page
+site_url: "" # This should be nothing cause we build the webpage from local
+site_author: Jose Alejandro Romero Herrera
+site_description: >-
+  This course is an introduction for how to approach bulk RNAseq data, starting from the sequencing reads. 
+  It will provide an overview of the fundamentals of RNAseq analysis, including read preprocessing, data normalization, data exploration with PCAs and heatmaps, performing differential expression analysis and annotation of the differentially expressed genes. 
+  Participants will also learn how to evaluate confounding and batch effects in the data. 
+  The course will further touch upon laboratory protocols, library preparation, and experimental design of RNA sequencing experiments, especially about how they influence downstream bioinformatic analysis.   
 
+# Repository
+repo_name: hds-sandbox/bulk_RNAseq_course
+repo_url: https://github.com/hds-sandbox/bulk_RNAseq_course
 
+# Configuration
+theme:
+
+  # Use the Material for MkDocs theme
+  # url: https://squidfunk.github.io/mkdocs-material/
+
+  name: material
+  
+  
+# Extra configs
 use_directory_urls: false
 docs_dir: develop
 site_dir: docs
+
+# Page tree
+nav:
+  - index.md
+  - test.md
